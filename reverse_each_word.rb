@@ -4,7 +4,7 @@ def reverse_each_word(string)
   split_string.collect do |element|
     reverse_string = element.reverse
   end
-  reverse_string.join(" ")
+  reverse_string
 end
 
 #reverse_string = string.reverse
