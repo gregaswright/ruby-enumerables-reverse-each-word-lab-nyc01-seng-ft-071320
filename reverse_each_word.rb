@@ -2,7 +2,8 @@ def reverse_each_word(string)
  reverse_string = string.reverse
  split_reverse_string = reverse_string.split
  split_reverse_string.collect do |element|
-   element.reverse
+   reverse_element = lement.reverse
+   reverse_element
  end
 end
 
