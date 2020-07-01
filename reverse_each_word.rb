@@ -1,5 +1,5 @@
 def reverse_each_word(string)
- string.collect do 
+ string.collect do
    reverse_string = string.reverse
    split_reverse_string = reverse_string.split
    reverse_split_reversed_string = split_reverse_string.reverse
