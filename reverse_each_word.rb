@@ -1,9 +1,8 @@
 def reverse_each_word(string)
   split_string = string.split
- split_string.collect do |element|
+  split_string.collect do |element|
     element
-
- end
+  end
 end
 
 #reverse_string = string.reverse
