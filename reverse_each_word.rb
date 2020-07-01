@@ -1,9 +1,10 @@
 def reverse_each_word(string)
  reverse_string = string.reverse
  split_reverse_string = reverse_string.split
- split_reverse_string.collect do |element|
-   reverse_element = element.reverse
-   reverse_element
+ reverse_split_reversed_string = split_reverse_string.reverse
+ reverse_split_reversed_string.collect do |element|
+    element.join(" ")
+
  end
 end
 
